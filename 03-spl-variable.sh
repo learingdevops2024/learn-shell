@@ -3,3 +3,8 @@ echo value of 2- $2
 echo value of 3- $3
 echo "value of *- $*"
 echo "value of #- $#"
+echo value of 0- $0
+
+
+
+
