@@ -10,6 +10,7 @@ example1() {
   echo value of 0 - $0
   echo value of * - $*
   echo value of # - $#
+  echo value of 2 - $2
 }
 
 example1 10 20 30
