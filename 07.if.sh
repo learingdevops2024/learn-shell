@@ -42,8 +42,7 @@ EOF
 
 
 #file expression
--e, [-e/etc/file]
-[-e/opt/file]
+
 
 
 X=$1
@@ -54,6 +53,7 @@ if[-z "$x"]; then
   if[$x -gt 100]; then
     echo "$x is greater than 100"
     else
-      echo "$x is less than 100"
-      fi
+    echo "$x is less than 100"
+
+    fi
 
