@@ -43,7 +43,7 @@ EOF
 
 #file expression
 
-
+X=$1
   if[$x -gt 100]; then
   echo "$x is greater than 100"
   else
@@ -53,7 +53,7 @@ fi
 X=$1
 if[-z "$x"]; then
   echo Input Missing
-  exit 1
+  exit
   fi
 
   if[$x -gt 100]; then
