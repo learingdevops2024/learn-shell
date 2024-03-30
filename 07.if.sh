@@ -32,3 +32,28 @@ if [1 -eq 10]; then
 a=10
 [$a -eq 5]
 fi
+EOF
+
+#string expression
+<<EOF
+[abc =="xyz"]
+[-z "$var"]
+EOF
+
+
+#file expression
+-e, [-e/etc/file]
+[-e/opt/file]
+
+
+X=$1
+if[-z "$x"]; then
+  echo Input Missing
+  exit 1
+  fi
+  if[$x -gt 100]; then
+    echo "$x is greater than 100"
+    else
+      echo "$x is less than 100"
+      fi
+
