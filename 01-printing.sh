@@ -16,4 +16,4 @@ echo -e "\e[34mhello in yellow colour\e[0m"
 echo -e "\e[35mhello in blue colour\e[0m"
 echo -e "\e[36mhello in magenta colour\e[0m"
 
-echo -e "\e[36mhello in cyan colour\e[0m"
+echo -e "\e[37mhello in cyan colour\e[0m"
