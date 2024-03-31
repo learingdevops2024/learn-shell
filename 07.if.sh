@@ -46,11 +46,11 @@ EOF
 X=$1
   if[$x -gt 100]; then
   echo "$x is greater than 100"
-  else
+else
   echo "$x is less than 100"
 fi
 
-X=$1
+X=10
 if[-z "$x"]; then
   echo Input Missing
   exit
