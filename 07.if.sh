@@ -50,7 +50,8 @@ else
   echo "$x is less than 100"
 fi
 
-X=10
+#Handle input missing
+X=$1
 if[-z "$x"]; then
   echo Input Missing
   exit
