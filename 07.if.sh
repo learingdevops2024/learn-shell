@@ -44,7 +44,8 @@ EOF
 #file expression
 
 X=$1
-  if [ $x -gt 100 ]; then
+
+if [ $x -gt 100 ]; then
   echo "$x is greater than 100"
 else
   echo "$x is less than 100"
@@ -52,14 +53,15 @@ fi
 
 #Handle input missing
 X=$1
-if[ -z "$x" ]; then
+
+if [ -z "$x" ]; then
   echo Input Missing
   exit
-  fi
+fi
 
-  if[ $x -gt 100 ]; then
+  if [ $x -gt 100 ]; then
   echo "$x is greater than 100"
-  else
+else
   echo "$x is less than 100"
 fi
 
