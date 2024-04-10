@@ -7,3 +7,10 @@ b="Hello World"
 echo $a
 echo $b
 echo $c
+
+#command sub
+
+
+
+
+#Arthematic sub
